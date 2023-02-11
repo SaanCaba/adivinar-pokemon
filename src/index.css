@@ -22,7 +22,25 @@
 }
 
 
-body {
+
+
+/* body {
+  min-height: 100vh;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;
+  background-color: red;
+}
+html {
+  height: fill-available;
+  height: -webkit-fill-available;
+} */
+.main_content{
+  min-height: -webkit-fill-available;
+  align-items: center;
+}
+
+@media screen and (min-width: 64em) {
+  body {
   margin: auto;
   display: flex;
   place-items: center;
@@ -30,6 +48,12 @@ body {
   min-width: 100vh;
   min-height: 100vh;
 }
+  
+  .main_content{
+
+  }
+ } 
+
 
 
 

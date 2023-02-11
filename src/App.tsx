@@ -3,7 +3,7 @@ import Pokemons from './components/Pokemons'
 
 function App() {
   return (
-    <main>
+    <main className='main_content'>
       <h1 style={{textAlign:'center'}}>
          Guess the Pokemon
          </h1>
