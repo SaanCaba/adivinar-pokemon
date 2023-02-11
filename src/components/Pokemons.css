@@ -43,7 +43,8 @@
 }
 
 .btn_tryagain:hover{
-    background-color: rgb(60, 171, 60);
+    background-color: rgb(168, 222, 168);
+    color: white;
 }
 
 .img_poke{
