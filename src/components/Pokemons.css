@@ -1,0 +1,146 @@
+.cont_view{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_form{
+    display: flex;
+    justify-content: center;
+}
+
+.cont_form input{
+    padding: 10px;
+    border:none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.cont_form input:focus{
+    outline: none;
+}
+
+.cont_form button{
+    padding: 10px;
+    font-size: 18px;
+    border:none;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.btn_tryagain{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    border:none;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+    cursor:pointer;
+    background-color: rgb(144, 237, 144);
+    transition: 1s linear;
+}
+
+.btn_tryagain:hover{
+    background-color: rgb(60, 171, 60);
+}
+
+.img_poke{
+    width: 512px;
+    height: 512px;
+    image-rendering: pixelated;
+    filter: brightness(0) invert(1);
+}
+
+.img_poke_activate{
+    width: 512px;
+    height: 512px;
+    image-rendering: pixelated;
+    animation: win 3s ease-in;
+    perspective: 1000px;
+}
+
+@keyframes win{
+    0%{
+        filter: brightness(0%) invert(0) drop-shadow(-7px -18px 13px #FFFFFF);
+    }
+    100%{
+        filter: brightness(100%) invert(0);
+    }
+}
+
+.div_clues{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation: renderclue 1s ease-in;
+}
+
+@keyframes renderclue{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.div_clues-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_surrender{
+    transition: 2s linear;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border:none;
+    border-radius: 10px 0px 0px 10px;
+    font-weight: bold;
+    cursor:pointer;
+    background-color: rgb(225, 95, 95);
+    color: white;
+}
+
+.btn_reload{
+    transition: 2s linear;
+    background-color: rgb(225, 95, 95);
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    border-left: 0.3px solid black;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+
+
+.cont-show-name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.show_name{
+    font-size: 18px;
+}
+
+.cont-btn-surrender{
+    display: flex;
+    justify-content: center;
+}
+
+.cont-btn-surrender button:hover{
+    background-color: rgb(156, 37, 37);
+
+}

@@ -1,10 +1,14 @@
 import { useState } from 'react'
+import Pokemons from './components/Pokemons'
 
 function App() {
   return (
-    <div>
-     hola
-    </div>
+    <main>
+      <h1 style={{textAlign:'center'}}>
+         Guess the Pokemon
+         </h1>
+     <Pokemons />
+    </main>
   )
 }
 

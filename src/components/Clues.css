@@ -1,0 +1,13 @@
+.message{
+    font-weight: bold;
+    animation: renderclue 1s ease-in;
+}
+
+@keyframes renderclue{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
