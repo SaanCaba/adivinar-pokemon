@@ -152,4 +152,17 @@
     display: flex;
     justify-content: center;
 }
+    .btn_tryagain{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+    border:none;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+    cursor:pointer;
+    background-color: rgb(144, 237, 144);
+    transition: 1s linear;
+}
 }
