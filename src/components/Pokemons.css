@@ -32,7 +32,7 @@
     display: block;
     margin: auto;
     padding: 10px;
-    font-size: 18px;
+    font-size: 15px;
     border:none;
     border-radius: 12px;
     color: black;
@@ -44,7 +44,6 @@
 
 .btn_tryagain:hover{
     background-color: rgb(168, 222, 168);
-    color: white;
 }
 
 .img_poke{
@@ -156,7 +155,7 @@
     display: block;
     margin: auto;
     padding: 10px;
-    font-size: 15px;
+    font-size: 18px;
     border:none;
     border-radius: 12px;
     color: black;
