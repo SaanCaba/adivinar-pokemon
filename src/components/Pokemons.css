@@ -47,8 +47,8 @@
 }
 
 .img_poke{
-    width: 512px;
-    height: 512px;
+    width: 482px;
+    height: 482px;
     image-rendering: pixelated;
     filter: brightness(0) invert(1);
 }
@@ -95,7 +95,7 @@
 
 .btn_surrender{
     transition: 2s linear;
-    margin-top: 10px;
+    margin-top: 0px;
     padding: 10px;
     font-size: 18px;
     border:none;
@@ -114,7 +114,7 @@
     border-left: 0.3px solid black;
     font-size: 18px;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
     border-right: none;
     border-top: none;
     border-bottom: none;
@@ -152,6 +152,14 @@
     display: flex;
     justify-content: center;
 }
+    
+.img_poke{
+    width: 512px;
+    height: 512px;
+    image-rendering: pixelated;
+    filter: brightness(0) invert(1);
+}
+
     .btn_tryagain{
     display: block;
     margin: auto;
