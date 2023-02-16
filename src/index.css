@@ -35,6 +35,10 @@ html {
   align-items: center;
 }
 
+.main_content h1{
+  margin-top:20px
+}
+
 @media screen and (min-width: 64em) {
   body {
   margin: auto;
@@ -45,9 +49,9 @@ html {
   min-height: 100vh;
 }
   
-  .main_content{
-
-  }
+.main_content h1{
+  margin-top:20px
+}
  } 
 
 
